@@ -1,0 +1,27 @@
+{
+  "name": "node-red-contrib-my_node",
+  "version": "1.0.0",
+  "description": "sample node-red",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Belavatagi/my_node.git"
+  },
+  "author": "adarsh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Belavatagi/my_node/issues"
+  },
+  "homepage": "https://github.com/Belavatagi/my_node#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "node-red": {
+    "nodes": {
+      "sample": "lower-case.js"
+    }
+  }
+}
