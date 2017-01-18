@@ -14,7 +14,11 @@
   "homepage": "https://github.com/Belavatagi/my_node#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "nock": "^9.0.2"
+  },
+  "scripts": {
+    "test": "mocha ./test/_spec.js"
   },
   "keywords": [
     "node-red"
@@ -23,5 +27,8 @@
     "nodes": {
       "sample": "lower-case.js"
     }
+  },
+  "dependencies": {
+    "should": "^11.1.2"
   }
 }
